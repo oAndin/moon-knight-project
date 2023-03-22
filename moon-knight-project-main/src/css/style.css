@@ -1,0 +1,107 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: rgb(143, 143, 143);
+}
+
+main:after{
+    content: '';
+    min-height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0.05926120448179273) 50%, rgba(0, 0, 0, 1) 90%);
+    z-index: -1;
+    /* background-color: aqua; */
+}
+.content {
+    display: flex;
+    flex-direction: column-reverse; 
+    /* min-height: 100vh; */
+    /* justify-content: space-evenly; */
+    /* background-color: aqua; */
+}
+.content .logo {
+	margin-bottom: 50px;
+    width: 65%; 
+    height: 65%;
+    background-color: rgb(157, 160, 159);
+}
+.content .description{
+    color: #ffffff;
+    width: 75%;
+    height: 20%;
+    font-size: 30px;
+    line-height: 50px;
+    
+    background-color: blueviolet;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.button{
+    background-color: #ffffff;
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	border: 2px solid transparent;
+	cursor: pointer;
+	border-color: #ffffff;
+}
+.selected-button{
+    background-color: #ffffff;
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	border: 2px solid transparent;
+	cursor: pointer;
+	border-color: #ffffff;
+}
+.buttons .selected-button{
+    background-color: black;
+}
+.social-media{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.social-media ul {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.social-media .icon{
+    width: 50px;
+    filter: invert(1);
+    transition: 0.5s ease-in-out;
+}
+.social-media .icon:hover {
+	transform: scale(1.5);
+}
+.image{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    display: none;
+    animation: mudarImagem 1s;
+}
+.image .active-image{
+    display: block;
+}
+@keyframes mudarImagem {
+	from {
+		opacity: 0.85;
+	}
+	to {
+		opacity: 1;
+	}
+}
