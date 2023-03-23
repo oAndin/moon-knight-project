@@ -1,86 +1,69 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>The Last of Us - Série</title>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>project-moon-knight</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./src/css/reset.css">
-    <link rel="stylesheet" href="./src/css/style.css">
-    <link rel="stylesheet" href="./src/css/responsive.css">
-</head>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet" />
 
-<body>
-    <main>
+		<link rel="stylesheet" href="./css/reset.css">
+		<link rel="stylesheet" href="./css/estilo.css">
+		<link rel="stylesheet" href="./css/responsivo.css">
 
-        <div class="images">
-            <img class="active-image" src="./src/images/moon-knight-perfeita.jpeg" alt="Mac/Steven">
-            <img class="image" src="./src/images/marc_x_steven.jpeg" alt="looking at the screen">
-            <img class="image" src="./src/images/moon-knight.jpeg" alt="moon-knight">
-            <img class="image" src="./src/images/sir-moon.jpeg" alt="sir-moon">
+	</head>
+	<body>
+		<main>
+			<div class="carrossel">
+				<img class="imagem ativa" src="./imagens/tlou-1.jpg" alt="Ellie e Joel abraçados" />
 
-        </div>
+				<img class="imagem" src="./imagens/tlou-2.jpg" alt="Personagens The Last of Us" />
 
-        <div class="content">
+				<img class="imagem" src="./imagens/tlou-3.jpg" alt="Joel olhando pela janela" />
 
-             <div class="description">
+				<img class="imagem" src="./imagens/tlou-4.jpg" alt="Ellie e Tess se olhando" />
 
-                <p class="active-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, iste ipsa impedit
-                    deserunt suscipit nemo
-                    officia illo? Saepe alias eius asperiores distinctio minima nulla nostrum repellat assumenda
-                    voluptas,
-                    quaerat cumque? <br></p>
-                <p class="text">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda quod ad non. Fugit
-                    voluptatem
-                    quisquam odit doloremque quasi fuga dolore labore numquam dolores! Natus hic, qui ipsa praesentium
-                    odio
-                    quasi! <br></p>
-                <p class="text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam fuga rerum quae nihil eaque.
-                    Delectus
-                    esse commodi harum, minus rem pariatur officiis, repellendus impedit obcaecati ipsa, aut tempora
-                    facere
-                    nostrum. <br>
-                </p>
+				<img class="imagem" src="./imagens/tlou-5.jpg" alt="Ellie e Joel caminhando em uma cidade destruída" />
 
-            </div>
+				<img class="imagem" src="./imagens/tlou-6.jpg" alt="Joel segurando uma lanterna ligada na mão direita" />
+			</div>
 
-            <img src="./src/images/logo_moon_knight.png" alt="moon-knight-logo" class="logo">
+			<div class="conteudo">
+				<div class="informacoes">
+					<img class="logo" src="./imagens/logo.png" alt="logo The Last of Us" />
 
+					<p class="descricao">The Last of Us é uma série distópica da HBO baseada na franquia de jogos de videogame de mesmo nome criada por Neil Druckmann. O drama narra um futuro pandêmico que foi devastador para humanidade, deixando os seres humanos à beira da extinção.</p>
+				</div>
 
-        </div>
-        <div class="buttons">
-            <button class="selected-button">Teste</button>
-            <button class="button">Teste</button>
-            <button class="button">Teste</button>
-            <button class="button">Teste</button>
+				<div class="botoes-carrossel">
+					<button class="botao selecionado"></button>
+					<button class="botao"></button>
+					<button class="botao"></button>
+					<button class="botao"></button>
+					<button class="botao"></button>
+					<button class="botao"></button>
+				</div>
+			</div>
 
-
-        </div>
-        <aside class="social-media">
-            <ul>
-                <li>
-                    <a href="" target="_blank"><img class="icon" src="./src/images/discord_icon.png" alt=""></a>
-                </li>
-                <li>
-                    <a href="" target="_blank"> <img class="icon" src="./src/images/Instagram_icon.png" alt=""></a>
-                </li>
-                <li>
-                    <a href="" target="_blank"> <img class="icon" src="./src/images/hithub_icon.png" alt=""></a>
-                </li>
-                <li>
-                    <a href="" target="_blank"> <img class="icon" src="./src/images/linked_in_icon.png" alt=""></a>
-                </li>
-            </ul>
-        </aside>
-    </main>
-    <script src="./src/js/index.js"></script>
-</body>
-
+			<aside class="menu-lateral">
+				<ul>
+					<li>
+						<a href="#" target="_blank">
+							<img src="./imagens/github.svg" alt="ícone GitHub" class="icone" />
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank">
+							<img src="./imagens/linkedin-in.svg" alt="ícone LinkedIn" class="icone" />
+						</a>
+					</li>
+				</ul>
+			</aside>
+		</main>
+	</body>
+	<script src="./js/index.js"></script>
 </html>
+
