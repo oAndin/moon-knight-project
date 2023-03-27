@@ -13,12 +13,12 @@ buttons.forEach((button, indice) => {
        
         const imageSelected = document.querySelector('.selected');
         imageSelected.classList.remove('selected');
-        
         const textSelected = document.querySelector('.selected');
         textSelected.classList.remove('selected');
-
-        image[indice].classList.add('selected');
+        
         text[indice].classList.add('selected');
+        image[indice].classList.add('selected');
+        
 
     })
 })

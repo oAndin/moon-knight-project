@@ -29,17 +29,17 @@ main:after{
     max-width: 650px;
     /* margin-bottom: 50px; */ 
 }
-.content .description {
+.content .texts {
     max-width: 50%;
     font-size: 25px;
     color: #ffffff;
     line-height: 30px;   
 }
-.content .description .text{
+.content .texts .text{
     display: none;
 }
 
-.content .description .text.selected {
+.content .texts .text.selected {
     display: block;
 }
 
